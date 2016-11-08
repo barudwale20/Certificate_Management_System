@@ -1,0 +1,160 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+<form name="logout" action="logout.php" method="POST">
+<p align="right"> <input type="submit" name="logout" value="logout"></p>
+</form>
+
+<center>
+<h1>FORM OF APPLICATION FOR LICENCE TO DRIVE A MOTOR VEHICLE</h1>
+</center>
+<br><br><br>
+<form name="liscenceform" method="POST" action="liscforminsert.php">
+
+I apply for a licence to enable me to drive vehicles of the following description:<br>
+<input type="radio" name="type" value="Motor Cycle without gear" id="Motor Cycle without gear">Motor Cycle without gear<br>
+<input type="radio" name="type" value="Motor Cycle with gear" id="Motor Cycle with gear">Motor Cycle with gear<br>
+<input type="radio" name="type" value="Invalid carriage" id="Invalid carriage">Invalid carriage<br>
+<input type="radio" name="type" value="Light Motor Vehicle" id="Light Motor Vehicle">Light Motor Vehicle<br>
+<input type="radio" name="type" value="Transport Vehicle" id="Transport Vehicle">Transport Vehicle<br>
+<input type="radio" name="type" value=" Road Roller" id=" Road Roller"> Road Roller<br>
+<br><br>
+
+RTO No.<input type="text" name="rtono" id="rtono" required>
+<br>
+
+<center>
+<h3>PARTICULARS TO BE FURNISHED BY THE APPLICANT</h3>
+</center>
+<br><br>
+<table>
+<tr>
+<td>FULL NAME:</td> <td><input type="text" name="name" id="name"><td>
+</tr>
+
+<tr>
+<td>SON/WIFE/DOUGHTER OF:<br>.</td><td><input type="text" name="sonwi" id="sonwi" required></td>
+<tr>
+
+<tr>
+<td>PERMANENT ADDRESS:<br>.</td><td> <input type="text" name="padd" id="padd"></td>
+<tr>
+
+<tr><td colspan="2"><div>(Electoral Roll / Life Insurance Policy / Passport / Pay Slip<br>
+issued by any office of the Central Government / State<br>
+Government or a local body / Any other document or<br>
+documents as may be prescribed by the State Government /<br>
+Affidavit sworn before an Executive Magistrate or a First Class<br>
+Judicial Magistrate or a Notary Public to be enclosed)</div></td></tr>
+
+<tr>
+<td>TEMPORARY ADDRESS/OFFICE ADDRESS IF ANY:<br>.</td><td> <input type="text" name="tadd" id="tadd"></td>
+<tr>
+
+<tr>
+<td>DURATION OF STAY AT PRESENT ADDRESS:<br>.</td><td> <input type="text" name="durstay" id="durstay"></td>
+<tr>
+
+<tr>
+<td>DATE OF BIRTH:<br>.</td><td> <input type="date" name="DOB" id="DOB"></td>
+<tr>
+
+<tr>
+<td>PLACE OF BIRTH:<br>.</td><td> <input type="text" name="placeob" id="placeob"></td>
+<tr>
+
+<tr>
+<td>IF PLACE OF BIRTH OUTSIDE INDIA, WHEN MIGRATED INDIA:<br>.</td><td> <input type="text" name="mgdate" id="mgdate"></td>
+<tr>
+
+<tr>
+<td>EDUCATIONAL QUALIFICATION:<br>.</td><td> <input type="text" name="quali" id="quali" required></td>
+<tr>
+
+<tr>
+<td>IDENTIFICATION MARKS:<br>.</td><td> 1.<input type="text" name="mark1" id="mark1"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<input type="text" name="mark2" id="mark2" required></td>
+<tr>
+
+<tr>
+<td>DECLARATION OF CITIZENSHIP STATUS:<br>.</td><td><select><option name=" If deemed Citizen or Citizen by Birth(Birth Certificate and
+school certificate in support of citizenship has to be enclosed)" value=" If deemed Citizen or Citizen by Birth (Birth Certificate and
+school certificate in support of citizenship has to be enclosed)"> If deemed Citizen or Citizen by Birth <br>(Birth Certificate and
+school certificate in support of citizenship has to be enclosed)
+<option name="If citizenship is acquired by Descent/Registration (In case
+Citizenship acquired by Descent, Birth Certificate, land /
+property document of parent / in case of citizenship acquired
+by registration certificate to be enclosed" value="If citizenship is acquired by Descent/Registration (In case
+Citizenship acquired by Descent, Birth Certificate, land /
+property document of parent / in case of citizenship acquired
+by registration certificate to be enclosed">If citizenship is acquired by Descent/Registration (In case
+Citizenship acquired by Descent, Birth Certificate, land /
+property document of parent / in case of citizenship acquired
+by registration certificate to be enclosed
+
+<option name="If Citizenship by Naturalization (Certificate of Naturalization
+and Certificate of Registration to be enclosed)" value="If Citizenship by Naturalization (Certificate of Naturalization
+and Certificate of Registration to be enclosed)">If Citizenship by Naturalization (Certificate of Naturalization
+and Certificate of Registration to be enclosed)
+
+<option name="If non-Indian Citizen
+(Valid passport or other travel documents and such other
+document or authority as may be prescribed by law to be
+enclosed" value="If non-Indian Citizen
+(Valid passport or other travel documents and such other
+document or authority as may be prescribed by law to be
+enclosed">If non-Indian Citizen
+(Valid passport or other travel documents and such other
+document or authority as may be prescribed by law to be
+enclosed
+</td>
+<tr>
+
+<tr>
+<td>BLOOD GROUP(RH Rhesus) Factor<br>.:</td><td> <input type="text" name="blood" id="blood" required></td>
+<tr>
+
+<tr>
+<td>Have you previously held driving Licence? If so, give details. :<br>. </td><td> <input type="text" name="prevdrive" id="prevdrive"></td>
+<tr>
+
+<tr>
+<td>Particulars and date of every conviction which has been
+ordered to be endorsed on any licence held by the applicant. :<br>. </td><td> <input type="text" name="abc" id="abc"></td>
+<tr>
+
+<tr>
+<td>Have you been disqualified for obtaining
+a licence to drive? If so, for what reasons? : <br>.</td><td> <input type="text" name="disqualify" id="disqualify"></td>
+<tr>
+
+<tr>
+<td>Have you been subject to a driving test as to your fitness or
+ability to drive a vehicle in respect of which a licence to drive
+a vehicle in respect of which a licence to drive is applied for?<br>.</td><td> <input type="text" name="fit" id="fit"></td>
+<tr>
+
+<tr>
+<td>Have you previously held driving Licence? If so, give details. : <br>.</td><td> <input type="text" name="pdl" id="pdl"></td>
+<tr>
+
+</table>
+
+I enclose the learner's licence No <input type="text">dated<input type="date">issued by
+Licencing Authority.
+
+<br>
+I enclose the Driving Certificate No<input type="text">dated<input type="date">issued
+by
+<br>
+
+<input type="submit" name="submit" id="submit">
+
+</form>
+
+</body>
+
+</html>

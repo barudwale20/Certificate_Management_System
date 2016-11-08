@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title>Certificate</title>
+</head>
+<body>
+	<form action="insertdata.php" method="post">
+	<table align='center'><caption><h2>Applicant Information</h2></caption>
+	<tr>
+		<td>Name of Applicant</td><td><input type='text' name='name'/></td>
+	</tr>
+	<tr>
+		<td>UID Number</td><td><input type='text' name='UID'/></td> 
+	</tr>
+	<tr>
+		<td>Enter Password</td><td><input type='password' name='pwd'/></td>
+	</tr>
+	<tr>
+		<td>Re-Enter Password</td><td><input type='password' name='repwd'/></td>
+	</tr>
+	<tr>
+		<td>Date of Birth</td><td><input type='text' name='dob'/></td>
+	</tr>
+	<tr>
+		<td>Gender</td><td><select name='gen'><option>Select Gender</option><option value='male'>Male</option><option value='female'>Female</option></select></td>
+	</tr>
+	<tr>
+		<td>E-mail</td><td><input type='text' name='email'/></td>
+	</tr>
+	<tr>
+		<td>Phone Number</td><td><input type='text' name='phnum'/></td>
+	</tr>
+	<tr>
+		<td>Address</td><td><textarea name="address" rows='4' cols='21'></textarea></td>
+	</tr>
+	<tr>
+		<td><button type="submit" name="submit" value='submit'>Submit</button></td>
+	</tr>
+	</table>
+	</form>
+	</body> 
+</html>
